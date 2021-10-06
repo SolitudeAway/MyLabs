@@ -6,11 +6,11 @@ namespace Lab1
     {
         static void Main(string[] args)
         {
-            int chilo = 0;
-            chilo = Convert.ToInt32(Console.ReadLine());
-            int t = chilo / 100;
-            chilo = (chilo - t * 100) * 10 + t;
-            Console.WriteLine(chilo);
+            int chislo = 0;
+            chislo = Convert.ToInt32(Console.ReadLine());
+            int t = chislo / 100;
+            chislo = (chislo - t * 100) * 10 + t;
+            Console.WriteLine(chislo);
         }
     }
 }

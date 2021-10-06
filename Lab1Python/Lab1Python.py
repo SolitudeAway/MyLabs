@@ -1,4 +1,4 @@
-chislo= int(input())
-pervayacifra = chislo // 100
-chislo = chislo % 100*10+pervayacifra
-print(chislo)
+res= int(input())
+per = res // 100
+res = res % 100*10 + per
+print(res)
